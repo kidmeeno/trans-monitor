@@ -1,0 +1,31 @@
+.trans__cards{
+    background: #FFFFFF;
+    border: 1px solid #EEF8FD;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+trans-name{
+    font-family: Segoe UI;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #787C90;
+}
+.trans__details span{
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #262626;
+}
+.trans__card__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}

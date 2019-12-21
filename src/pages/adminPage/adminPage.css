@@ -1,31 +1,62 @@
-.trans__cards{
+.graph__wrapper__section{
+    height: 50vh;
+    /* outline: 1px solid red; */
+}
+.progress{
+    background: #FDC203;
+    height: 4px;
+    margin-top: 10px
+}
+.progress-bar{
+    background: #27AE60;
+}
+.graph__chart{
+    margin-top: 2%;
     background: #FFFFFF;
-    border: 1px solid #EEF8FD;
     box-sizing: border-box;
     border-radius: 2px;
-    width: 49%;
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
 }
-trans-name{
+.order__detail__wrapper{
+    margin-top: 2%;
+    /* background: #FFFFFF; */
+    /* border: 1px solid #EEF8FD; */
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding-left: 0
+}
+.order__detailed__stats{
+    height: 49%;
+    padding: 5px 5vmin 5px 20px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 2%;
+}
+.payment__detailed__stats{
+    height: 49%;
+    padding: 5px 5vmin 5px 20px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+bold-text{
     font-family: Segoe UI;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
-    display: flex;
-    align-items: flex-end;
-    color: #787C90;
-}
-.trans__details span{
-    font-family: Segoe UI;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: flex-end;
     color: #262626;
+    font-weight: bold;
 }
-.trans__card__wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center
+.order__ul__res{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.order__ul__res li{
+    font-family: Segoe UI;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+    margin: 10px 0;
 }

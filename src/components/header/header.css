@@ -1,0 +1,91 @@
+.header__wrapper{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+    z-index: 2;
+}
+.header__item{
+    display: flex;
+    align-items: center;
+    width: 28%;
+    justify-content: space-between;
+    margin-right: 10vmin;
+}
+.logo__wrapper{
+    width: 20vw;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1875F0;
+}
+.search__wrapper{
+    width: 50%;
+    padding-left: 2em;
+}
+.search__field{
+    font-family: Segoe UI;
+    font-size: 12px;
+    line-height: 16px;
+    color: #979797;
+    margin-left: 16px;
+    border: none
+}
+.user__detail__wrapper{
+    display: flex;
+    align-items: center;
+}
+.support__faq__wrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.user__img{
+    border-radius: 49px;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+}
+.support__faq__wrapper span{
+    font-family: Segoe UI;
+    font-size: 14px;
+    line-height: 19px;
+    color: #647787;
+}
+.notification__counter{
+    position: absolute;
+    border-radius: 50px;
+    width: 10px;
+    font-size: 7px;
+    background: #1860EC;
+    height: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+.greetings{
+    font-family: Segoe UI;
+    font-size: 10px;
+    line-height: 13px;
+    color: #647787;
+    text-align: end;
+}
+.user__name{
+    font-family: Segoe UI;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #647787;
+}
+.user__detail{
+    display: grid;
+}

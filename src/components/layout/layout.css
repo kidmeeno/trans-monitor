@@ -1,0 +1,42 @@
+.layout__body{
+    display: flex;
+    /* width: 100vw; */
+    height: 100%;
+}
+.side__nav__wrapper{
+    width: 20vw;
+    /* outline: 1px solid red; */
+    height: 100%;
+    padding-top: 8vh;
+    position: fixed;
+    background: #ffffff
+}
+.content__wrapper{}
+.invoice__btn{
+    height: 6vmin;
+    width: 11.5vw;
+    background: #27AE60;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: none
+}
+.generate__invoice__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14%;
+}
+.layout__wrapper{
+    height: 100vh;
+}
+.sidebar__nav__wrapper{
+    outline: 1px solid red;
+    height: 86%;
+}

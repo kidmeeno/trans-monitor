@@ -1,0 +1,100 @@
+.graph__wrapper__section{
+    height: 50vh;
+    /* outline: 1px solid red; */
+}
+.progress{
+    background: #FDC203;
+    height: 4px;
+    margin-top: 10px
+}
+.progress-bar{
+    background: #27AE60;
+}
+.graph__chart{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 100%;
+}
+.graph__chart__wrapper{
+    margin-top: 2%;
+    padding-right: 0.66%
+}
+.chart__container__top{
+    width: 100%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+}
+
+.date__dropdown{
+    border: 1px solid #DDE0E3;
+    border-radius: 4.25px;
+    color: #DDE0E3;
+    width: 55%;
+}
+.btn__wrapper{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.arrow__btn{
+    background: linear-gradient(0deg, #F2F4F7 0%, #FFFFFF 100%);
+    border: 1px solid #CED0DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.select__date__section{
+    display: flex;
+    justify-content: space-around
+}
+.date__div{
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+    font-weight: bolder;
+    margin-left: 6%;
+}
+.order__detail__wrapper{
+    margin-top: 2%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding-left: 0
+}
+.order__detailed__stats{
+    height: 49%;
+    padding: 5px 5vmin 5px 20px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 2%;
+}
+.payment__detailed__stats{
+    height: 49%;
+    padding: 5px 5vmin 5px 20px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+bold-text{
+    font-family: Segoe UI;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+    font-weight: bold;
+}
+.order__ul__res{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.order__ul__res li{
+    font-family: Segoe UI;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+    margin: 10px 0;
+}
